@@ -27,7 +27,6 @@ run-supervisor :9998port, :funcs{ :&bla }
 on a different terminal:
 
 ```raku
-
 use Supervisor;
 
 run-supervisor :nodes["node01 localhost:9998", ], {
